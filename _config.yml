@@ -1,0 +1,21 @@
+# Site settings
+title: She Who Dares Wins
+header-img: img/home-bg.png
+email: kpeterson.kap@gmail.com
+copyright_name: KPetersonRed
+description: > # this means to ignore newlines until "baseurl:"
+  "Fall seven times, stand up eight"
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  KPetersonRed
+learn_profile: KPetersonRed
+email_username: kpeterson.kap@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
